@@ -16,7 +16,7 @@ public:
                 return instance;
             }
 
-    void ininDatabase();
+    QString userLogin(QString userName,QString password);
 
 private:
     explicit IDatabase(QObject *parent = nullptr);
@@ -25,6 +25,7 @@ private:
 
     QSqlDatabase database;
 
+    void ininDatabase();
 signals:
 
 
