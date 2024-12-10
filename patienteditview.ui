@@ -19,7 +19,7 @@
      <x>31</x>
      <y>0</y>
      <width>364</width>
-     <height>231</height>
+     <height>269</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -63,10 +63,10 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLineEdit" name="lineEdit"/>
+           <widget class="QLineEdit" name="dbEditID"/>
           </item>
           <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEdit_2"/>
+           <widget class="QLineEdit" name="dbEditName"/>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_3">
@@ -76,7 +76,7 @@
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLineEdit" name="lineEdit_3"/>
+           <widget class="QLineEdit" name="dbEditIDCard"/>
           </item>
           <item row="3" column="0">
            <widget class="QLabel" name="label_4">
@@ -86,7 +86,7 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QComboBox" name="comboBox">
+           <widget class="QComboBox" name="dbComboSex">
             <item>
              <property name="text">
               <string>男</string>
@@ -107,7 +107,7 @@
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QDateEdit" name="dateEdit"/>
+           <widget class="QDateEdit" name="dbDateEditDOB"/>
           </item>
           <item row="5" column="0">
            <widget class="QLabel" name="label_6">
@@ -117,7 +117,11 @@
            </widget>
           </item>
           <item row="5" column="1">
-           <widget class="QSpinBox" name="spinBox"/>
+           <widget class="QSpinBox" name="dbSpinHeight">
+            <property name="maximum">
+             <number>250</number>
+            </property>
+           </widget>
           </item>
           <item row="6" column="0">
            <widget class="QLabel" name="label_7">
@@ -127,7 +131,7 @@
            </widget>
           </item>
           <item row="6" column="1">
-           <widget class="QSpinBox" name="spinBox_2"/>
+           <widget class="QSpinBox" name="dbSpinWeight"/>
           </item>
           <item row="7" column="0">
            <widget class="QLabel" name="label_8">
@@ -137,7 +141,7 @@
            </widget>
           </item>
           <item row="7" column="1">
-           <widget class="QLineEdit" name="lineEdit_4"/>
+           <widget class="QLineEdit" name="dbEditMobile"/>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_2">
@@ -145,6 +149,16 @@
              <string>姓名:</string>
             </property>
            </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>创建时间：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="dbCreatedTimeStamp"/>
           </item>
          </layout>
         </item>
