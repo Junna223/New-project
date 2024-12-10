@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>510</width>
-    <height>249</height>
+    <width>446</width>
+    <height>254</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,10 +36,10 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="txtSearch"/>
       </item>
       <item>
-       <widget class="QPushButton" name="btSerch">
+       <widget class="QPushButton" name="btSearch">
         <property name="text">
          <string>查找</string>
         </property>

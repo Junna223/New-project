@@ -28,11 +28,15 @@ private:
 
     void ininDatabase();
 
-public:
-    bool initPatientModel();
 signals:
 
 public:
+    bool initPatientModel();
+    bool searchPatient(QString filter);
+    bool deleteCurrentPatient();
+    bool submitPatientEdit();
+    void revertPatientEdit();
+
     QSqlTableModel *patientTabModel;
     QItemSelectionModel *thePatientSelection;
 
